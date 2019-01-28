@@ -17,6 +17,7 @@ class PostsController < ApplicationController
   end
 
   def new
+    if 
     @post = Post.new
   end
 
